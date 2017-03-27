@@ -12,6 +12,8 @@
 		8B62D1D61E8996E70066E2D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B62D1D41E8996E70066E2D0 /* Main.storyboard */; };
 		8B62D1D81E8996E70066E2D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B62D1D71E8996E70066E2D0 /* Assets.xcassets */; };
 		8B62D1DB1E8996E70066E2D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B62D1D91E8996E70066E2D0 /* LaunchScreen.storyboard */; };
+		8B62D1EC1E899DD30066E2D0 /* hello.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B62D1EE1E899DD30066E2D0 /* hello.png */; };
+		8B62D1F31E89A20F0066E2D0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8B62D1F51E89A20F0066E2D0 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,20 @@
 		8B62D1D71E8996E70066E2D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B62D1DA1E8996E70066E2D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B62D1DC1E8996E70066E2D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B62D1E51E899B350066E2D0 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		8B62D1E61E899B500066E2D0 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Main.strings; sourceTree = "<group>"; };
+		8B62D1E71E899B500066E2D0 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		8B62D1E81E899B560066E2D0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		8B62D1E91E899B560066E2D0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		8B62D1EB1E899C2F0066E2D0 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		8B62D1ED1E899DD30066E2D0 /* fr */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fr; path = fr.lproj/hello.png; sourceTree = "<group>"; };
+		8B62D1EF1E899DD80066E2D0 /* it */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = it; path = it.lproj/hello.png; sourceTree = "<group>"; };
+		8B62D1F01E899DD90066E2D0 /* es */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = es; path = es.lproj/hello.png; sourceTree = "<group>"; };
+		8B62D1F41E89A20F0066E2D0 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8B62D1F61E89A2110066E2D0 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8B62D1F71E89A2120066E2D0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8B62D1F81E89A2320066E2D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8B62D1F91E89A2370066E2D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/hello.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +70,10 @@
 		8B62D1CF1E8996E70066E2D0 /* App_Internacionalizacion */ = {
 			isa = PBXGroup;
 			children = (
+				8B62D1EE1E899DD30066E2D0 /* hello.png */,
 				8B62D1D01E8996E70066E2D0 /* AppDelegate.swift */,
 				8B62D1D21E8996E70066E2D0 /* ViewController.swift */,
+				8B62D1F51E89A20F0066E2D0 /* Localizable.strings */,
 				8B62D1D41E8996E70066E2D0 /* Main.storyboard */,
 				8B62D1D71E8996E70066E2D0 /* Assets.xcassets */,
 				8B62D1D91E8996E70066E2D0 /* LaunchScreen.storyboard */,
@@ -107,6 +125,8 @@
 			knownRegions = (
 				en,
 				Base,
+				it,
+				es,
 			);
 			mainGroup = 8B62D1C41E8996E70066E2D0;
 			productRefGroup = 8B62D1CE1E8996E70066E2D0 /* Products */;
@@ -123,6 +143,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B62D1F31E89A20F0066E2D0 /* Localizable.strings in Resources */,
+				8B62D1EC1E899DD30066E2D0 /* hello.png in Resources */,
 				8B62D1DB1E8996E70066E2D0 /* LaunchScreen.storyboard in Resources */,
 				8B62D1D81E8996E70066E2D0 /* Assets.xcassets in Resources */,
 				8B62D1D61E8996E70066E2D0 /* Main.storyboard in Resources */,
@@ -148,6 +170,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				8B62D1D51E8996E70066E2D0 /* Base */,
+				8B62D1E61E899B500066E2D0 /* it */,
+				8B62D1E81E899B560066E2D0 /* es */,
+				8B62D1EB1E899C2F0066E2D0 /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -156,8 +181,33 @@
 			isa = PBXVariantGroup;
 			children = (
 				8B62D1DA1E8996E70066E2D0 /* Base */,
+				8B62D1E51E899B350066E2D0 /* fr */,
+				8B62D1E71E899B500066E2D0 /* it */,
+				8B62D1E91E899B560066E2D0 /* es */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8B62D1EE1E899DD30066E2D0 /* hello.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B62D1ED1E899DD30066E2D0 /* fr */,
+				8B62D1EF1E899DD80066E2D0 /* it */,
+				8B62D1F01E899DD90066E2D0 /* es */,
+				8B62D1F91E89A2370066E2D0 /* Base */,
+			);
+			name = hello.png;
+			sourceTree = "<group>";
+		};
+		8B62D1F51E89A20F0066E2D0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B62D1F41E89A20F0066E2D0 /* fr */,
+				8B62D1F61E89A2110066E2D0 /* it */,
+				8B62D1F71E89A2120066E2D0 /* es */,
+				8B62D1F81E89A2320066E2D0 /* Base */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -167,6 +217,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -216,6 +267,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";

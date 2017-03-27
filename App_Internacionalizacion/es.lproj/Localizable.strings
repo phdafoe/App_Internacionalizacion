@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  App_Internacionalizacion
+
+  Created by formador on 27/3/17.
+  Copyright © 2017 formador. All rights reserved.
+*/
+
+GOOD_MORNING = "Buenos días";
+TITLE_DATA = "Estamos aquí en clase de iOS";
+MESSAGE_DATA = "Este es un mensaje en Español";
+
